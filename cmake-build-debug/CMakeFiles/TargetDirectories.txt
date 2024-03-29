@@ -1,0 +1,3 @@
+/Users/itaysoldin/Desktop/liqStore/cmake-build-debug/CMakeFiles/liqStore.dir
+/Users/itaysoldin/Desktop/liqStore/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/itaysoldin/Desktop/liqStore/cmake-build-debug/CMakeFiles/rebuild_cache.dir

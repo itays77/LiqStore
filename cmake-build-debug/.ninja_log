@@ -1,0 +1,7 @@
+# ninja log v5
+38	72	1711679617001584506	liqStore	60faaece1d2f59d1
+1	46	1711672830239438678	CMakeFiles/liqStore.dir/GeneralFunctions.c.o	7af05afbdcc7404e
+1	38	1711679616965957978	CMakeFiles/liqStore.dir/Beer.c.o	34a67050f2935af1
+1	34	1711675782477791469	CMakeFiles/liqStore.dir/main.c.o	730052f05a5d0594
+1	38	1711679616965879603	CMakeFiles/liqStore.dir/Inventory.c.o	9670d7eb032b4ed8
+1	43	1711678235341276070	CMakeFiles/liqStore.dir/Wine.c.o	ce1138a0e8a209ee
