@@ -16,4 +16,6 @@ add_executable(liqStore main.c
         List.c
         Customer.c
         Sales.c
-        Reservation.c)
+        Reservation.c
+        Date.c
+        Shop.c)

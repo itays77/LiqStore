@@ -1,7 +1,8 @@
 #ifndef __INVENTORY__
 #define __INVENTORY__
 
-
+#define BASE_WINE_AMOUNT 15
+#define NUM_OF_SORT_TYPES 40
 
 #include "Beer.h"
 #include "Wine.h"
@@ -23,6 +24,7 @@ void initInventory(Inventory* pInventory);
 void setInventoryDefaults(Inventory* pInventory);
 int addBeer(Inventory* pInventory);
 int addWine(Inventory* pInventory);
+void printInventory(const Inventory* pInventory);
 
 
 #endif

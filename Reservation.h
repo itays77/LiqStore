@@ -14,7 +14,7 @@ typedef struct
     LIST items;
     int totalAmount;
     Inventory* inventory;
-//    Date date;
+    Date date;
 
 }Reservation;
 

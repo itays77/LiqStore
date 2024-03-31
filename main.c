@@ -16,8 +16,10 @@ int main() {
     addWine(&inventory);
     printWine(&inventory.wineArray[0]);
 
-    Sales sales;
-    initSales(&sales, &inventory);
+//    Sales sales;
+//    initSales(&sales, &inventory);
+
+    printInventory(&inventory);
 
 
     return 1;

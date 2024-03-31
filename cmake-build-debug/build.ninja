@@ -103,6 +103,18 @@ build CMakeFiles/liqStore.dir/Reservation.c.o: C_COMPILER__liqStore_unscanned_De
   OBJECT_DIR = CMakeFiles/liqStore.dir
   OBJECT_FILE_DIR = CMakeFiles/liqStore.dir
 
+build CMakeFiles/liqStore.dir/Date.c.o: C_COMPILER__liqStore_unscanned_Debug /Users/itaysoldin/Desktop/liqStore/Date.c || cmake_object_order_depends_target_liqStore
+  DEP_FILE = CMakeFiles/liqStore.dir/Date.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/liqStore.dir
+  OBJECT_FILE_DIR = CMakeFiles/liqStore.dir
+
+build CMakeFiles/liqStore.dir/Shop.c.o: C_COMPILER__liqStore_unscanned_Debug /Users/itaysoldin/Desktop/liqStore/Shop.c || cmake_object_order_depends_target_liqStore
+  DEP_FILE = CMakeFiles/liqStore.dir/Shop.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/liqStore.dir
+  OBJECT_FILE_DIR = CMakeFiles/liqStore.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target liqStore
@@ -111,7 +123,7 @@ build CMakeFiles/liqStore.dir/Reservation.c.o: C_COMPILER__liqStore_unscanned_De
 #############################################
 # Link the executable liqStore
 
-build liqStore: C_EXECUTABLE_LINKER__liqStore_Debug CMakeFiles/liqStore.dir/main.c.o CMakeFiles/liqStore.dir/Inventory.c.o CMakeFiles/liqStore.dir/GeneralFunctions.c.o CMakeFiles/liqStore.dir/Beer.c.o CMakeFiles/liqStore.dir/Wine.c.o CMakeFiles/liqStore.dir/List.c.o CMakeFiles/liqStore.dir/Customer.c.o CMakeFiles/liqStore.dir/Sales.c.o CMakeFiles/liqStore.dir/Reservation.c.o
+build liqStore: C_EXECUTABLE_LINKER__liqStore_Debug CMakeFiles/liqStore.dir/main.c.o CMakeFiles/liqStore.dir/Inventory.c.o CMakeFiles/liqStore.dir/GeneralFunctions.c.o CMakeFiles/liqStore.dir/Beer.c.o CMakeFiles/liqStore.dir/Wine.c.o CMakeFiles/liqStore.dir/List.c.o CMakeFiles/liqStore.dir/Customer.c.o CMakeFiles/liqStore.dir/Sales.c.o CMakeFiles/liqStore.dir/Reservation.c.o CMakeFiles/liqStore.dir/Date.c.o CMakeFiles/liqStore.dir/Shop.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/liqStore.dir
   POST_BUILD = :
